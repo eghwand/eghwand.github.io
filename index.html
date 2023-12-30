@@ -29,6 +29,19 @@
     <script src="https://kit.fontawesome.com/dd9a39d5e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <script src="js/snowfall.js"></script>
+    <script>
+        let snowfall = new Snowfall({
+            count: 50, // number of snowflakes
+            minRadius: 5, // minimum radius of a snowflake in pixels
+            maxRadius: 30, // maximum radius of a snowflake in pixels
+            minSpeed: 3, // minimum speed of a snowflake in pixels per frame
+            maxSpeed: 10, // maximum speed of a snowflake in pixels per frame
+            text: "\u2744", // text for a snowflake (can be any symbol or text)
+            color: "#ffffff", // color of a snowflake in HEX format
+            zIndex: "1000" // z-index for the snowflakes canvas
+        });
+    </script>
     <br>
     <br>
     <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: larger;">Version: 17.4<br>Last update: 12.30.2023</span>
@@ -44,5 +57,6 @@
     </a>
     <br>
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c7f52791be4144d2afc15ace5f78377f"}'></script><!-- End Cloudflare Web Analytics -->
+    <script src="js/antidevtools.js"></script>
 </body>
 </html>
