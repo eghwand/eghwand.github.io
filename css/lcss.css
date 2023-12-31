@@ -45,7 +45,7 @@ header{
       position: fixed;
       top: 0;
       width: 100%;
-      background: white;
+      background: black;
       z-index: 1;
     }
     >*{
