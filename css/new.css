@@ -3,18 +3,16 @@ body {
     background-color: black;
     text-shadow: 0px 0px 20px #ffffff
 }
-a {
+.heading {
     position: absolute;
     text-align: center;
     top: 30%;
     width: 100%;
+}
+a {
     color: white;
 }
 span {
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    width: 100%;
     color: white;
 }
 #particles-js {
